@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+header{
+    background: linear-gradient(to right, rgb(55, 243, 30), white, #52af2d);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav .log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+nav .log label{
+    margin-top: 25px;
+    color: white;
+    text-shadow: 5px 5px 6px red;
+    font-weight: 900;
+}
+nav .log img{
+width: 70px;
+}
+nav .navbar ul li{
+    float: left;
+    list-style: none;
+    padding-right: 30px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+nav .navbar ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.welcom{
+    margin-top: 3%;
+}
+.welcom .leftside h1{
+    color: rgb(9, 30, 219);
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 5px 5px 6px rgb(30, 255, 0);
+}
+.welcom .leftside p{
+    color: skyblue;
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.rightside{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rightside img{
+    width: 30px;
+    position: relative;
+    left: 150px;
+}
+.rightside #search{
+    width: 400px;
+    font-size: larger;
+    height: 50px;
+    position: absolute;
+}
+.seeds{
+    margin-top: 7%;
+    background: linear-gradient(rgb(55, 243, 30), white, #52af2d);   
+}
+.seeds h1{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 2px 5px blue;
+}
+.cards{
+    display: flex;
+}
+.cards .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.cards .card h3{
+    font-size: 25px;
+    color: aliceblue;
+}
+.cards .card p{
+    font-size: 18px;
+    text-align: center;
+}
+.cards .card img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.plan{
+    margin-top: 5%;
+}
+.plan h1{
+    font-size: 50px;
+    color: greenyellow;
+    text-align: center;
+    text-shadow: 5px 5px 4px red;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+.gallery img{
+    width: 300px;
+    margin: 10px;
+}
+#grow{
+    width: 100%;
+}
+
+.slogan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    background: linear-gradient(360deg, rgb(55, 243, 30), white, #52af2d);    
+}
+.slogan img{
+    width: 200px;
+}
+.slogan p{
+    width: 50%;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+footer{
+    margin-top: 5%;
+}
+footer .SM{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+footer .SM img{
+    margin-left: 2%;
+}
+.copywright{
+    color: gray;
+    margin-top: 20px;
+    font-size: larger;
+    text-align: center;
+    
+}
